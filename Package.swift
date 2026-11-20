@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "8.2.1-release.0")
+        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "8.4.0-release.8")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkPangleAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkPangleAdapter/8.2.1.0.2.9/AnyThinkPangleAdapter-8.2.1.0.2.9.zip",
-            checksum: "1783908f6d7c2da3810fba01e6861913f0a8c288f4fe1d75a4f92e740a1f1467"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkPangleAdapter/8040008.2.10/AnyThinkPangleAdapter-8040008.2.10.zip",
+            checksum: "f32b7f0abeade23f54d927ef9d5b69aabf07ba9ed0bd0b6c4d82ef69e6c80ac0"
         ),
         .target(
             name: "TPNMediationPangleAdapterTarget",
